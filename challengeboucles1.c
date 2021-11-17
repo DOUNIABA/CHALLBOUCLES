@@ -23,3 +23,27 @@ DEBUT_ALGORITHME
     FIN_POUR
 
 FIN_ALGORITHME
+
+
+                  ----------------------------------------------------------------------------
+
+#include <stdio.h>
+
+int main()
+{
+
+int nb , i , mul;
+
+printf("entrer un nombre:\n");
+
+ scanf("%d",&nb);
+ for(i=1;i<=10 ;i++){
+    mul=nb*i;
+
+printf("mul=%d \n",mul);
+     
+ }
+
+
+    return 0;
+}

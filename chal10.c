@@ -3,29 +3,29 @@
 
 
 int main(){
- int n,j,som,i;
- int p = 0;
+ int N,j,som,i;
+ int A = 0;
  som=0;
 for(i=0;i<20;i++){
-printf("donnez une nombre:\n ");
-scanf("%d",&n);
+printf("donnez un nombre:\n ");
+scanf("%d",&N);
  
  
 
-if(n==0){
+if(N==0){
     break;
 }
 
-   if(n>0){
+   if(N>0){
 
-p++;
+A++;
 
-som+=n;
+som+=N;
 
 
  
 }
-if (p==10){
+if (A==10){
 printf("la somme est %d :",som);
 break;
 }
